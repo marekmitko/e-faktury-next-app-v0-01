@@ -22,6 +22,24 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+
+          <a href="./user-dashboard" className={styles.card}>
+            <h2>User-dashboard &rarr;</h2>
+            <p>..</p>
+          </a>
+          <a href="https://components-extra.netlify.app/" className={styles.card}>
+            <h2>components-extra &rarr;</h2>
+            <p>..</p>
+          </a>
+          <a href="./user-dashboard" className={styles.card}>
+            <h2>User-dashboard &rarr;</h2>
+            <p>..</p>
+          </a>
+          <a href="./user-dashboard" className={styles.card}>
+            <h2>User-dashboard &rarr;</h2>
+            <p>..</p>
+          </a>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
