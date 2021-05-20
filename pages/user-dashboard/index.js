@@ -1,4 +1,4 @@
-import {Dashboard} from './Components/UserDashboard/Dashboard.js';
+import Dashboard from './Components/UserDashboard/Dashboard.js';
 
 export default function RenderUserDashboard() {
     return(
