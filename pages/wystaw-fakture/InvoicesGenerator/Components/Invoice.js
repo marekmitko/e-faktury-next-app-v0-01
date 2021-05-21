@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
   const Invoice = ({invoice}) => (
             <Document>
                 <Page size="A4" style={styles.page}>
-                    <Image style={styles.logo} src={logo} />
+                    {/* <Image style={styles.logo} src={logo} />
                     <InvoiceTitle title='Invoice'/>
                     <InvoiceNo invoice={invoice}/>
                     <BillTo invoice={invoice}/>
                     <InvoiceItemsTable invoice={invoice} />
-                    <InvoiceThankYouMsg />
+                    <InvoiceThankYouMsg /> */}
                 </Page>
             </Document>
         );

@@ -1,11 +1,10 @@
-import App from './InvoicesGenerator/App.js';
+import dynamic from "next/dynamic";
 
-export default function RenderUserDashboard() {
-    return(
-    <>
 
-        <App />
-   
-    </>
-    )
+const PDFViewer = dynamic(() => import("./InvoicesGenerator/App.js"), {
+    ssr: false
+});
+
+export default function PDF() {
+    return <PDFViewer />;
 }
