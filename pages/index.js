@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-          <a href="./panel-uzytkownika" className={styles.card}>
+          <a href="./panel_uzytkownika" className={styles.card}>
             <h2>1: UserDashboard &rarr;</h2>
             <p>..</p>
           </a>
@@ -31,7 +31,7 @@ export default function Home() {
             <h2>2: components-extra &rarr;</h2>
             <p>..</p>
           </a>
-          <a href="./wystaw-fakture" className={styles.card}>
+          <a href="./wystaw_fakture" className={styles.card}>
             <h2>3: InvoicesGenerator &rarr;</h2>
             <p>..</p>
           </a>
