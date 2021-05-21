@@ -1,10 +1,10 @@
-import Dashboard from './Components/UserDashboard/Dashboard.js';
+import App from './InvoicesGenerator/App.js';
 
 export default function RenderUserDashboard() {
     return(
     <>
 
-        <Dashboard />
+        <App />
    
     </>
     )

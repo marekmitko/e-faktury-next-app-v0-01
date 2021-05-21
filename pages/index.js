@@ -23,16 +23,16 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-          <a href="./user-dashboard" className={styles.card}>
-            <h2>User-dashboard &rarr;</h2>
+          <a href="./panel-uzytkownika" className={styles.card}>
+            <h2>1: UserDashboard &rarr;</h2>
             <p>..</p>
           </a>
           <a href="https://components-extra.netlify.app/" className={styles.card}>
-            <h2>components-extra &rarr;</h2>
+            <h2>2: components-extra &rarr;</h2>
             <p>..</p>
           </a>
-          <a href="./user-dashboard" className={styles.card}>
-            <h2>User-dashboard &rarr;</h2>
+          <a href="./wystaw-fakture" className={styles.card}>
+            <h2>3: InvoicesGenerator &rarr;</h2>
             <p>..</p>
           </a>
           <a href="./user-dashboard" className={styles.card}>
