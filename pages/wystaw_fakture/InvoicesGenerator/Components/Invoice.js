@@ -1,10 +1,10 @@
 import React from 'react';
 import { Page, Document, Image, StyleSheet } from '@react-pdf/renderer';
-import InvoiceTitle from './reports/InvoiceTitle.js'
-// import BillTo from './BillTo'
-// import InvoiceNo from './InvoiceNo'
-// import InvoiceItemsTable from './InvoiceItemsTable'
-// import InvoiceThankYouMsg from './InvoiceThankYouMsg'
+import InvoiceTitle from './reports/InvoiceTitle'
+import BillTo from './reports/BillTo'
+import InvoiceNo from './reports/InvoiceNo'
+import InvoiceItemsTable from './reports/ItemsTable/InvoiceItemsTable'
+import InvoiceThankYouMsg from './reports/InvoiceThankYouMsg'
 // import logo from '../../../src/logo.png'
 
 
@@ -24,19 +24,19 @@ const styles = StyleSheet.create({
         marginLeft: 'auto',
         marginRight: 'auto'
     }
-  });
-  
-  const Invoice = ({invoice_data}) => (
+});
+
+const Invoice = ({invoice}) => (
             <Document>
                 <Page size="A4" style={styles.page}>
+                    {/* <Image style={styles.logo} src={logo} /> */}
                     <InvoiceTitle title='Invoice'/>
-                    {/* <Image style={styles.logo} src={logo} />
                     <InvoiceNo invoice={invoice}/>
                     <BillTo invoice={invoice}/>
                     <InvoiceItemsTable invoice={invoice} />
-                    <InvoiceThankYouMsg /> */}
+                    <InvoiceThankYouMsg />
                 </Page>
             </Document>
         );
-  
-  export default Invoice
+
+export default Invoice

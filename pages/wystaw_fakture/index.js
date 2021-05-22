@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
 
-const PDFViewer = dynamic(() => import("./InvoicesGenerator/App.js"), {
+const PDFViewer = dynamic(() => import("./InvoicesGenerator/FvApp.js"), {
     ssr: false
 });
 

@@ -2,25 +2,23 @@ import React from 'react';
 import {Text, View, StyleSheet } from '@react-pdf/renderer';
 
 const styles = StyleSheet.create({
-
-        titleContainer:{
+   
+    titleContainer:{
         flexDirection: 'row',
-        marginTop: 24,
+        marginTop: 12
     },
     reportTitle:{
-        color: '#61dafb',
-        letterSpacing: 4,
-        fontSize: 25,
+        fontSize: 12,
         textAlign: 'center',
         textTransform: 'uppercase',
     }
-});
+  });
 
 
-const InvoiceTitle = ({title}) => (
+  const InvoiceThankYouMsg = () => (
     <View style={styles.titleContainer}>
-        <Text style={styles.reportTitle}>{title}</Text>
+        <Text style={styles.reportTitle}>Thank you for your business</Text>
     </View>
-);
-
-export default InvoiceTitle
+  );
+  
+  export default InvoiceThankYouMsg
